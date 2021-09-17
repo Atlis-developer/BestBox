@@ -1,0 +1,147 @@
+.center{
+    min-height: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grand-text{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grand-text h1{
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+
+.grand-text span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-color: #000000;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #8b8b8b inset, 0 0 0 0 #8b8b8b;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 10px 0 #8b8b8b inset, 0 0 10px 4px #8b8b8b;
+}
+
+.information{
+      background-color: white;
+      
+}
+
+.txt{
+    padding: 2% 2% 2% 2%;
+    font-size: 1.1em;
+}
+
+.line-separator{
+    text-align: center;
+    
+}
+
+.side-line {
+    display: inline-block;
+    border-top: 2px solid black;
+    width: 20%;
+}
+
+.triangle {
+    display: inline-block;
+    height: 13px;
+    width: 12px;
+    transform: rotate(225deg);
+    transform-origin: center center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0 2px -7px;
+}
+
+.txt-img{
+    display: flex;
+    justify-content: center;
+    margin: 4% 0 4% 0;
+    
+}
+
+.stuff{
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.stuff div{
+    margin-top: 3%;
+}
+
+.work-txt{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.work-points{
+    margin-top: 2%;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: lightblue;
+    margin: 1em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.ball-txt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: aqua 3px solid;
+    margin: 0 15% 1% 15%;
+    border-radius: 40px;
+    background-color: rgb(107, 163, 228);
+}
+
+.ball-txt span{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.3em;
+    
+}
+
+.text{
+    padding-left: 1%;
+    font-size: 18px;
+    align-items: center;
+    font-style: italic;
+    text-transform: lowercase;
+}
