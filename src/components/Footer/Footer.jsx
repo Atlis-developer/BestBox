@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Redirect } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Footer.css';
 
 export const Footer = () => {
@@ -14,22 +14,22 @@ export const Footer = () => {
             <div className='footer-navigation'>
                 <nav className='footer-nav'>
                         <div className='footer-link'>
-                            <NavLink to='/katalog-tovarov/'>КАТАЛОГ ШКАФОВ</NavLink>
+                            <NavLink to='/catalog'>КАТАЛОГ ШКАФОВ</NavLink>
                         </div>
                         <div className='footer-link'>
-                            <NavLink to='/motoboxs/'>МОТОБОКСЫ</NavLink>
+                            <NavLink to='/motoboxs'>МОТОБОКСЫ</NavLink>
                         </div>
                         <div className='footer-link'>
-                            <NavLink to='/guarantee/'>ГАРАНТИЯ</NavLink>
+                            <NavLink to='/guarantee'>ГАРАНТИЯ</NavLink>
                         </div>
                         <div className='footer-link'>
-                            <NavLink to='/delivery/'>ДОСТАВКА И МОНТАЖ</NavLink>
+                            <NavLink to='/delivery'>ДОСТАВКА И МОНТАЖ</NavLink>
                         </div>
                         <div className='footer-link'>
-                            <NavLink to='/examples/'>НАШИ РАБОТЫ</NavLink>
+                            <NavLink to='/examples'>НАШИ РАБОТЫ</NavLink>
                         </div>
                         <div className='footer-link'>
-                            <NavLink to='/contacts/'>КОНТАКТЫ</NavLink>
+                            <NavLink to='/contacts'>КОНТАКТЫ</NavLink>
                         </div>
                 </nav>
             </div>

@@ -1,3 +1,9 @@
+.home-page{
+    background-image: url(../../images/BackImg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 
 .center{
     min-height: 880px;

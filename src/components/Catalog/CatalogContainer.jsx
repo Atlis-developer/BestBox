@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 
 
 const CatalogContainer = (props) => {
-  debugger
   return ( 
     <div className='catalog-Container'>
       <Catalog catalogPage={props.state.catalogPage}/>

@@ -1,6 +1,7 @@
 .header{
     display: grid;
     grid-template-columns: 4fr 8fr;
+    background: linear-gradient(to top, grey, rgb(182, 181, 181));
 }
 
 .logo h1{

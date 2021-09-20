@@ -4,8 +4,15 @@ import Tire from '../../images/tire.jpg'
 import Box from '../../images/box.jpg'
 import Skis from '../../images/skis.jpg'
 import Tools from '../../images/tools.jpg'
+import { Redirect } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 export const HomePage = () => {
+
+    let catalogButton = () =>{
+        return <Redirect to='/catalog'/>
+    }
+
     return (
         <div className='home-page'>
             <div className='center'>
@@ -15,8 +22,13 @@ export const HomePage = () => {
                         <span>Оптимизируй пространство своей парковки</span>
                     </div>
                     <div className='buttons'>
-                        <button className='btn'>Каталог шкафов</button>
+                        <NavLink to='/catalog'>
+                            <button className='btn'>Каталог шкафов</button>
+                        </NavLink>
+                        <NavLink to='/motoboxs'>
                         <button className='btn'>Мотобоксы</button>
+                        </NavLink>
+                        
                     </div>
                 </div>
             </div>

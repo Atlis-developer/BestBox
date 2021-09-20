@@ -1,0 +1,66 @@
+.catalog{
+    text-align: center;
+    background-color: white;
+}
+
+.catalog h1{
+    padding-top: 2%;
+}
+
+.catalog .all-inform{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.all-inform .name-ava img{
+    width: 550px;
+}
+
+.all-inform .other-inform{
+    padding-left: 2%;
+    text-align: left;
+    line-height: 1.8em;
+    font-size: 1.1em;
+}
+
+.other-inform .inform span{
+    font-weight: bold;
+}
+
+
+.line{
+    border-bottom: 1.5px dashed #000;
+    min-height: 50px;
+}
+
+.name-ava div{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5%;
+}
+
+.catalog .materials{
+    display: flex;
+    justify-content: left;
+    margin-top: 3%;
+    word-wrap: break-word;
+    margin-left: 14%;
+    font-size: 1.1em;
+}
+
+.materials .material{
+    text-align: left;
+    margin-left: 5%;
+    max-width: 950px;
+ }
+
+h4{
+    font-size: 1.3em;
+}
+
+.catalog .inform-end{
+    margin-bottom: 1%;
+    padding-bottom: 5%;
+    font-size: 1.1em;
+}
