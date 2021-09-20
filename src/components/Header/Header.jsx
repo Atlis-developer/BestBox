@@ -14,24 +14,23 @@ export const Header = () => {
             </div>
             <div className='navigation'>
                 <nav className='nav'>
-
                         <div className='link'>
-                            <NavLink to='/katalog-tovarov/'>КАТАЛОГ ШКАФОВ</NavLink>
+                            <NavLink to='/catalog' activeClassName='activeLink'>КАТАЛОГ ШКАФОВ</NavLink>
                         </div>
                         <div className='link'>
-                            <NavLink to='/motoboxs/'>МОТОБОКСЫ</NavLink>
+                            <NavLink to='/motoboxs' activeClassName='activeLink'>МОТОБОКСЫ</NavLink>
                         </div>
                         <div className='link'>
-                            <NavLink to='/guarantee/'>ГАРАНТИЯ</NavLink>
+                            <NavLink to='/guarantee' activeClassName='activeLink'>ГАРАНТИЯ</NavLink>
                         </div>
                         <div className='link'>
-                            <NavLink to='/delivery/'>ДОСТАВКА И МОНТАЖ</NavLink>
+                            <NavLink to='/delivery' activeClassName='activeLink'>ДОСТАВКА И МОНТАЖ</NavLink>
                         </div>
                         <div className='link'>
-                            <NavLink to='/examples/'>НАШИ РАБОТЫ</NavLink>
+                            <NavLink to='/examples' activeClassName='activeLink'>НАШИ РАБОТЫ</NavLink>
                         </div>
                         <div className='link'>
-                            <NavLink to='/contacts/'>КОНТАКТЫ</NavLink>
+                            <NavLink to='/contacts' activeClassName='activeLink'>КОНТАКТЫ</NavLink>
                         </div>
                 </nav>
             </div>

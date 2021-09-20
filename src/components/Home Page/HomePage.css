@@ -1,3 +1,4 @@
+
 .center{
     min-height: 880px;
     display: flex;
@@ -109,6 +110,7 @@
 
 .work-points{
     margin-top: 2%;
+    padding-bottom: 1%;
 }
 
 .ball {
