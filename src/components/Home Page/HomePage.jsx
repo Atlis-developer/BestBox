@@ -1,34 +1,35 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './HomePage.css';
 import Tire from '../../images/tire.jpg'
 import Box from '../../images/box.jpg'
 import Skis from '../../images/skis.jpg'
 import Tools from '../../images/tools.jpg'
-import { Redirect } from 'react-router';
 import { NavLink } from 'react-router-dom';
+import "animate.css"
+import { WOW } from "wowjs";
+
 
 export const HomePage = () => {
 
-    let catalogButton = () =>{
-        return <Redirect to='/catalog'/>
-    }
+    const wow = new WOW();
+    wow.init();
 
     return (
         <div className='home-page'>
             <div className='center'>
                 <div className='grand-center'>
-                    <div className='grand-text'>
+                    <div className='grand-text animate__animated animate__fadeInLeft' >
                         <h1>Металлические шкафы для <br /> парковки</h1>
                         <span>Оптимизируй пространство своей парковки</span>
                     </div>
-                    <div className='buttons'>
+                    <div className='buttons animate__animated animate__fadeInRight'>
                         <NavLink to='/catalog'>
                             <button className='btn'>Каталог шкафов</button>
                         </NavLink>
                         <NavLink to='/motoboxs'>
-                        <button className='btn'>Мотобоксы</button>
+                            <button className='btn'>Мотобоксы</button>
                         </NavLink>
-                        
+
                     </div>
                 </div>
             </div>
@@ -48,7 +49,8 @@ export const HomePage = () => {
                     <div class="triangle"> </div>
                     <div class="side-line"> </div>
                 </div>
-                <div className='txt-img'>
+                <div className='txt-img wow animate__animated animate__fadeInUp'
+                    data-wow-duration='2s'>
                     <div className='stuff'>
                         <img src={Tire} />
                         <div>
@@ -91,42 +93,42 @@ export const HomePage = () => {
                         <div class="side-line"> </div>
                     </div>
                     <div className='work-points'>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight'>
                             <div className='ball'>1</div>
                             <span>Обмеры:</span>
                             <div className='text'>
                                 ВЫЕЗД ЗАМЕРЩИКА НА ОБЪЕКТ, ЗАМЕР РАЗМЕРОВ ПАРКОВОЧНОГО МЕСТА, ОБСУЖДЕНИЕ КОМПЛЕКТАЦИИ И ДЕТАЛЕЙ.
                             </div>
                         </div>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='0.5s'>
                             <div className='ball'>2</div>
                             <span>Проект:</span>
                             <div className='text'>
                                 РАЗРАБОТКА ПРОЕКТА РОЛЛЕТНОГО ШКАФА, И СОГЛАСОВАНИЕ ЕГО С ЗАКАЗЧИКОМ.
                             </div>
                         </div>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='1s'>
                             <div className='ball'>3</div>
                             <span>Изготовление:</span>
                             <div className='text'>
                                 ИЗГОТОВЛЕНИЕ РОЛЛЕТНОГО ШКАФА В СООТВЕТСТВИИ С СОГЛАСОВАННЫМИ РАЗМЕРАМИ И КОМПЛЕКТАЦИЕЙ В ТЕЧЕНИИ 2-3 НЕДЕЛЬ.
                             </div>
                         </div>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='1.5s'>
                             <div className='ball'>4</div>
                             <span>Доставка:</span>
                             <div className='text'>
                                 ОСУЩЕСТВЛЯЕМ АДРЕСНУЮ ДОСТАВКУ ИЗДЕЛИЯ.
                             </div>
                         </div>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='2s'>
                             <div className='ball'>5</div>
                             <span>Монтаж:</span>
                             <div className='text'>
                                 СОБИРАЕМ И МОНТИРУЕМ РОЛЛЕТНЫЙ ШКАФ.
                             </div>
                         </div>
-                        <div className='ball-txt'>
+                        <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='2.5s'>
                             <div className='ball'>6</div>
                             <span>Сдача изделия:</span>
                             <div className='text'>
