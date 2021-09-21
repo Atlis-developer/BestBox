@@ -41,7 +41,6 @@
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-/* При наведении на кнопки добавляем фон кнопок */
 .slider .previous:hover,
 .slider .next:hover {
     background-color: rgba(0, 0, 0, 0.2);
