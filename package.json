@@ -16,6 +16,7 @@
     "react-scripts": "4.0.3",
     "redux": "^4.1.1",
     "rxjs": "^7.3.0",
+    "smoothscroll-for-websites": "^1.4.10",
     "web-vitals": "^1.1.2",
     "wowjs": "^1.1.3"
   },

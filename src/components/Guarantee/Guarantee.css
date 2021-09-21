@@ -1,0 +1,16 @@
+.guarantee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+    background-color: rgb(219, 219, 219);
+    min-height: 690px;
+}
+
+.guarantee .txt{
+    width: 60%;
+}
+
+.txt span{
+    font-weight: bold;
+}

@@ -1,10 +1,11 @@
 .catalog{
     text-align: center;
-    background-color: white;
+    background-color: rgb(219, 219, 219);
 }
 
 .catalog h1{
     padding-top: 2%;
+    margin-top: 0;
 }
 
 .catalog .all-inform{
