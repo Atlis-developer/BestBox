@@ -1,10 +1,15 @@
+h1 {
+    color: grey;
+    text-align: center;
+}
+
 .delivery{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3% 0;
     background-color: rgb(219, 219, 219);
-    min-height: 690px;
+    min-height: 710px;
 }
 
 .delivery .txt{

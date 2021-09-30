@@ -6,7 +6,7 @@ background-image: url(../../images/BackImg.jpg);
 
 
 .center{
-    min-height: 880px;
+    min-height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,8 +22,9 @@ background-image: url(../../images/BackImg.jpg);
 
 .grand-text h1{
     font-size: 48px;
-    font-weight: normal;
+    font-weight: bolder;
     margin-bottom: 3%;
+    color: rgb(68, 68, 68);
 }
 
 .grand-text span{
@@ -65,7 +66,7 @@ background-image: url(../../images/BackImg.jpg);
 
 .txt{
     padding: 2% 2% 2% 2%;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 .line-separator{

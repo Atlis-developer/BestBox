@@ -8,7 +8,7 @@ import CatalogContainer from './components/Catalog/CatalogContainer';
 import Motoboxs from './components/Motoboxs/Motoboxs';
 import Guarantee from './components/Guarantee/Guarantee';
 import Delivery from './components/Delivery/Delivery';
-import Examples from './components/Examples/Examples';
+import ExamplesContainer from './components/Examples/ExamplesContainer';
 import Contacts from './components/Contacts/Contacts';
 
 
@@ -32,7 +32,7 @@ const App = () => {
           <Route path='/delivery'
             render={() => <Delivery />} />
           <Route path='/examples'
-            render={() => <Examples />} />
+            render={() => <ExamplesContainer />} />
           <Route path='/contacts'
             render={() => <Contacts />} />
         </div>

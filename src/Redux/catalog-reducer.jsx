@@ -1,7 +1,3 @@
-import AR45 from '../images/AR45.jpg'
-import AER44 from '../images/AER44.png'
-import Prof from '../images/prof.png'
-import Iron from '../images/iron.png'
 
 const defaultState = {
     catalog: [

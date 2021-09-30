@@ -1,3 +1,17 @@
+.examples{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+    background-color: rgb(219, 219, 219);
+    min-height: 710px;
+}
+
+.examples h1 {
+    color: grey;
+    text-align: center;
+}
+
 .slider {
     position: relative;
     width: 40%;
@@ -10,10 +24,17 @@
 }
  
 .slider-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     height: 500px;
     transition: all 0.8s;
+}
+
+.slider-img img{
+    height: 100%;
 }
  
 .slider-img-prev {

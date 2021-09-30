@@ -1,0 +1,168 @@
+import slide1 from '../images/slide/slide01.jpg'
+import slide2 from '../images/slide/slide02.jpg'
+import slide3 from '../images/slide/slide03.jpg'
+import slide4 from '../images/slide/slide04.jpg'
+import slide5 from '../images/slide/slide05.jpg'
+import slide6 from '../images/slide/slide06.jpg'
+import slide7 from '../images/slide/slide07.jpg'
+import slide8 from '../images/slide/slide08.jpg'
+import slide9 from '../images/slide/slide09.jpg'
+import slide10 from '../images/slide/slide10.jpg'
+import slide11 from '../images/slide/slide11.jpg'
+import slide12 from '../images/slide/slide12.jpg'
+import slide13 from '../images/slide/slide13.jpg'
+import slide14 from '../images/slide/slide14.jpg'
+import slide15 from '../images/slide/slide15.jpg'
+import slide16 from '../images/slide/slide16.jpg'
+import slide17 from '../images/slide/slide17.jpg'
+import slide18 from '../images/slide/slide18.jpg'
+import slide19 from '../images/slide/slide19.jpg'
+import slide20 from '../images/slide/slide20.jpg'
+import slide21 from '../images/slide/slide21.jpg'
+import slide23 from '../images/slide/slide23.jpg'
+import slide24 from '../images/slide/slide24.jpg'
+import slide25 from '../images/slide/slide25.jpg'
+import slide26 from '../images/slide/slide26.jpg'
+import slide27 from '../images/slide/slide27.jpg'
+import slide28 from '../images/slide/slide28.jpg'
+import slide29 from '../images/slide/slide29.jpg'
+import slide34 from '../images/slide/slide34.jpg'
+import slide35 from '../images/slide/slide35.jpg'
+import slide36 from '../images/slide/slide36.jpg'
+import slide37 from '../images/slide/slide37.jpg'
+import slide38 from '../images/slide/slide38.jpg'
+import slide39 from '../images/slide/slide39.jpg'
+import slide40 from '../images/slide/slide40.jpg'
+import slide41 from '../images/slide/slide41.jpg'
+import slide42 from '../images/slide/slide42.jpg'
+import slide43 from '../images/slide/slide43.jpg'
+import slide44 from '../images/slide/slide44.jpg'
+import slide45 from '../images/slide/slide45.jpg'
+import slide46 from '../images/slide/slide46.jpg'
+import slide47 from '../images/slide/slide47.jpg'
+import slide48 from '../images/slide/slide48.jpg'
+import slide49 from '../images/slide/slide49.jpg'
+import slide50 from '../images/slide/slide50.jpg'
+import slide51 from '../images/slide/slide51.jpg'
+import slide52 from '../images/slide/slide52.jpg'
+import slide53 from '../images/slide/slide53.jpg'
+import slide54 from '../images/slide/slide54.jpg'
+import slide55 from '../images/slide/slide55.jpg'
+import slide56 from '../images/slide/slide56.jpg'
+import slide57 from '../images/slide/slide57.jpg'
+import slide58 from '../images/slide/slide58.jpg'
+import slide59 from '../images/slide/slide59.jpg'
+import slide60 from '../images/slide/slide60.jpg'
+import slide61 from '../images/slide/slide61.jpg'
+import slide62 from '../images/slide/slide62.jpg'
+import slide63 from '../images/slide/slide63.jpg'
+import slide64 from '../images/slide/slide64.jpg'
+import slide65 from '../images/slide/slide65.jpg'
+import slide66 from '../images/slide/slide66.jpg'
+import slide67 from '../images/slide/slide67.jpg'
+import slide68 from '../images/slide/slide68.jpg'
+import slide69 from '../images/slide/slide69.jpg'
+import slide70 from '../images/slide/slide70.jpg'
+import slide71 from '../images/slide/slide71.jpg'
+import slide72 from '../images/slide/slide72.jpg'
+import slide73 from '../images/slide/slide73.jpg'
+import slide74 from '../images/slide/slide74.jpg'
+import slide75 from '../images/slide/slide75.jpg'
+import slide76 from '../images/slide/slide76.jpg'
+import slide77 from '../images/slide/slide77.jpg'
+import slide78 from '../images/slide/slide78.jpg'
+import slide79 from '../images/slide/slide79.jpg'
+import slide80 from '../images/slide/slide80.jpg'
+import slide81 from '../images/slide/slide81.jpg'
+
+
+const defaultState = {
+    img : [
+        <img key={slide1} src={slide1} />,
+        <img key={slide2} src={slide2} />,
+        <img key={slide3} src={slide3} />,
+        <img key={slide4} src={slide4} />,
+        <img key={slide5} src={slide5} />,
+        <img key={slide6} src={slide6} />,
+        <img key={slide7} src={slide7} />,
+        <img key={slide8} src={slide8} />,
+        <img key={slide9} src={slide9} />,
+        <img key={slide10} src={slide10} />,
+        <img key={slide11} src={slide11} />,
+        <img key={slide12} src={slide12} />,
+        <img key={slide13} src={slide13} />,
+        <img key={slide14} src={slide14} />,
+        <img key={slide15} src={slide15} />,
+        <img key={slide16} src={slide16} />,
+        <img key={slide17} src={slide17} />,
+        <img key={slide18} src={slide18} />,
+        <img key={slide19} src={slide19} />,
+        <img key={slide20} src={slide20} />,
+        <img key={slide21} src={slide21} />,
+        <img key={slide23} src={slide23} />,
+        <img key={slide24} src={slide24} />,
+        <img key={slide25} src={slide25} />,
+        <img key={slide26} src={slide26} />,
+        <img key={slide27} src={slide27} />,
+        <img key={slide28} src={slide28} />,
+        <img key={slide29} src={slide29} />,
+        <img key={slide34} src={slide34} />,
+        <img key={slide35} src={slide35} />,
+        <img key={slide36} src={slide36} />,
+        <img key={slide37} src={slide37} />,
+        <img key={slide38} src={slide38} />,
+        <img key={slide39} src={slide39} />,
+        <img key={slide40} src={slide40} />,
+        <img key={slide41} src={slide41} />,
+        <img key={slide42} src={slide42} />,
+        <img key={slide43} src={slide43} />,
+        <img key={slide44} src={slide44} />,
+        <img key={slide45} src={slide45} />,
+        <img key={slide46} src={slide46} />,
+        <img key={slide47} src={slide47} />,
+        <img key={slide48} src={slide48} />,
+        <img key={slide49} src={slide49} />,
+        <img key={slide50} src={slide50} />,
+        <img key={slide51} src={slide51} />,
+        <img key={slide52} src={slide52} />,
+        <img key={slide53} src={slide53} />,
+        <img key={slide54} src={slide54} />,
+        <img key={slide55} src={slide55} />,
+        <img key={slide56} src={slide56} />,
+        <img key={slide57} src={slide57} />,
+        <img key={slide58} src={slide58} />,
+        <img key={slide59} src={slide59} />,
+        <img key={slide60} src={slide60} />,
+        <img key={slide61} src={slide61} />,
+        <img key={slide62} src={slide62} />,
+        <img key={slide63} src={slide63} />,
+        <img key={slide64} src={slide64} />,
+        <img key={slide65} src={slide65} />,
+        <img key={slide66} src={slide66} />,
+        <img key={slide67} src={slide67} />,
+        <img key={slide68} src={slide68} />,
+        <img key={slide69} src={slide69} />,
+        <img key={slide70} src={slide70} />,
+        <img key={slide71} src={slide71} />,
+        <img key={slide72} src={slide72} />,
+        <img key={slide73} src={slide73} />,
+        <img key={slide74} src={slide74} />,
+        <img key={slide75} src={slide75} />,
+        <img key={slide76} src={slide76} />,
+        <img key={slide77} src={slide77} />,
+        <img key={slide78} src={slide78} />,
+        <img key={slide79} src={slide79} />,
+        <img key={slide80} src={slide80} />,
+        <img key={slide81} src={slide81} />,
+    ]
+}
+
+export const examplesReducer = (state = defaultState, action) => {
+
+    switch (action.type) {
+        default:
+            return state;
+    };
+}
+
+
