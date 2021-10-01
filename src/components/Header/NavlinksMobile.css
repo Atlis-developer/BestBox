@@ -1,0 +1,35 @@
+.menuMobile{
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    right: 1%;
+    width: 100vw;
+    background-color: #181818;
+    opacity: 0.9;
+    
+}
+
+.menuMobile .linkMobile{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.menuMobile .linkMobile a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    position: relative;
+    font-size: 0.8em;
+}
+
+.menuMobile .linkMobile a:hover{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+}
+
+
+
+.menuMobile .lilinkMobilenk .activeLink{
+    color: black;
+}

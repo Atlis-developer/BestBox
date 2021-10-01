@@ -1,0 +1,10 @@
+.navigationMobile{
+    position: relative;
+    z-index: 10;
+}
+
+.navigationMobile .hamburger{
+    padding-right: 15%;
+    padding-top: 5%;
+}
+

@@ -2,7 +2,27 @@
     display: grid;
     grid-template-columns: 4fr 8fr;
     background: linear-gradient(to top, grey, rgb(182, 181, 181));
+    position: relative;
+    z-index: 2;
 }
+
+.header .navigationMobile{
+    display: none;
+}
+
+@media(max-width: 990px){
+    .header .navigation{
+    display: none;
+    }
+    .header .navigationMobile{
+        display: flex;
+        justify-content: end;
+    }
+    .header{
+        grid-template-columns: 9fr 3fr;
+    }
+}
+
 
 .logo h1{
     color: white;
@@ -24,10 +44,6 @@
     
 }
 
-.nav{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
 
 .link{
     margin-top: 30px;

@@ -97,42 +97,42 @@ export const HomePage = () => {
                             <div className='ball'>1</div>
                             <span>Обмеры:</span>
                             <div className='text'>
-                                ВЫЕЗД ЗАМЕРЩИКА НА ОБЪЕКТ, ЗАМЕР РАЗМЕРОВ ПАРКОВОЧНОГО МЕСТА, ОБСУЖДЕНИЕ КОМПЛЕКТАЦИИ И ДЕТАЛЕЙ.
+                                ЗАМЕР ПАРКОВОЧНОГО МЕСТА НА ОБЪЕКТЕ, ОБСУЖДЕНИЕ КОМПЛЕКТАЦИИ И ДЕТАЛЕЙ
                             </div>
                         </div>
                         <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='0.5s'>
                             <div className='ball'>2</div>
                             <span>Проект:</span>
                             <div className='text'>
-                                РАЗРАБОТКА ПРОЕКТА РОЛЛЕТНОГО ШКАФА, И СОГЛАСОВАНИЕ ЕГО С ЗАКАЗЧИКОМ.
+                                РАЗРАБОТКА ПРОЕКТА РОЛЛЕТНОГО ШКАФА, И СОГЛАСОВАНИЕ ЕГО С ЗАКАЗЧИКОМ
                             </div>
                         </div>
                         <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='1s'>
                             <div className='ball'>3</div>
                             <span>Изготовление:</span>
                             <div className='text'>
-                                ИЗГОТОВЛЕНИЕ РОЛЛЕТНОГО ШКАФА В СООТВЕТСТВИИ С СОГЛАСОВАННЫМИ РАЗМЕРАМИ И КОМПЛЕКТАЦИЕЙ В ТЕЧЕНИИ 2-3 НЕДЕЛЬ.
+                                ИЗГОТОВЛЕНИЕ РОЛЛЕТНОГО ШКАФА В ТЕЧЕНИИ 23 календарных дней
                             </div>
                         </div>
                         <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='1.5s'>
                             <div className='ball'>4</div>
                             <span>Доставка:</span>
                             <div className='text'>
-                                ОСУЩЕСТВЛЯЕМ АДРЕСНУЮ ДОСТАВКУ ИЗДЕЛИЯ.
+                                ОСУЩЕСТВЛЯЕМ АДРЕСНУЮ ДОСТАВКУ ИЗДЕЛИЯ
                             </div>
                         </div>
                         <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='2s'>
                             <div className='ball'>5</div>
                             <span>Монтаж:</span>
                             <div className='text'>
-                                СОБИРАЕМ И МОНТИРУЕМ РОЛЛЕТНЫЙ ШКАФ.
+                                СОБИРАЕМ И МОНТИРУЕМ РОЛЛЕТНЫЙ ШКАФ
                             </div>
                         </div>
                         <div className='ball-txt wow animate__animated animate__fadeInRight' data-wow-delay='2.5s'>
                             <div className='ball'>6</div>
                             <span>Сдача изделия:</span>
                             <div className='text'>
-                                ВЫ ПОЛУЧАЕТЕ ГОТОВОЕ ИЗДЕЛИЕ В ПОЛНОМ СООТВЕТСТВИИ С ПРОЕКТОМ.
+                                ВЫ ПОЛУЧАЕТЕ ГОТОВОЕ ИЗДЕЛИЕ В ПОЛНОМ СООТВЕТСТВИИ С ПРОЕКТОМ
                             </div>
                         </div>
                     </div>

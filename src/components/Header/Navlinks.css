@@ -1,0 +1,29 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.menu .link{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menu .link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.menu .link a:hover{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+}
+
+.menu .logo a{
+    text-decoration: none;
+}
+
+.menu .link .activeLink{
+    color: black;
+}

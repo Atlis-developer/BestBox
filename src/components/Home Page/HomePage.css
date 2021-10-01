@@ -4,7 +4,6 @@ background-image: url(../../images/BackImg.jpg);
   background-size: cover;
 }
 
-
 .center{
     min-height: 900px;
     display: flex;
@@ -13,7 +12,7 @@ background-image: url(../../images/BackImg.jpg);
     
 }
 
-.grand-text{
+.grand-center{
     color: white;
     align-items: center;
     justify-content: center;
@@ -24,7 +23,7 @@ background-image: url(../../images/BackImg.jpg);
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 3%;
-    color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
 }
 
 .grand-text span{
@@ -63,6 +62,8 @@ background-image: url(../../images/BackImg.jpg);
       background-color: white;
       
 }
+
+
 
 .txt{
     padding: 2% 2% 2% 2%;
@@ -149,8 +150,22 @@ background-image: url(../../images/BackImg.jpg);
 
 .text{
     padding-left: 1%;
-    font-size: 18px;
+    font-size: 1.1em;
     align-items: center;
     font-style: italic;
     text-transform: lowercase;
+}
+
+@media(max-width: 990px){
+    .ball-txt{
+        margin: 0;
+        padding: 5px
+    }
+    .ball{
+        display: none;
+    }
+    .ball-txt span{
+        margin: 1em 0 1em 1em;
+        font-size: 1.1em;
+    }
 }

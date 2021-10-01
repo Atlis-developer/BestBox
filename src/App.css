@@ -28,6 +28,11 @@
   color: white;
 }
 
+.App-content{
+  position: relative;
+  z-index: 1;
+}
+
 .App-link {
   color: #61dafb;
 }
