@@ -11,7 +11,7 @@ export const NavigationMobile = () => {
 
     return (
         <nav className='navigationMobile'>
-            {open && <NavlinksMobile />}
+            {open && <NavlinksMobile closeMenu={setOpen}/>}
             {open ? <CgClose className='hamburger' size='40px' color='white' onClick={() => setOpen(!open)} /> :
                 <GiHamburgerMenu className='hamburger' size='40px' color='white' onClick={() => setOpen(!open)} />}
         </nav>
