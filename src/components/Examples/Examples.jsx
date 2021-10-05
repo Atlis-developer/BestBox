@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useImperativeHandle } from "react"
 
 
 
@@ -11,13 +11,25 @@ const Examples = (props) => {
 
     const [activeIndex, setActiveIndex] = useState(0);
 
+    
+    let [endNumb, setEndNumb] = useState(5)
 
+    let startingArray = img.slice(0, endNumb);
+    let currentArray = [ ];
+    currentArray.push(startingArray.map(e=>e));
 
+    let btnPhotos = () => {
+
+        return (
+            
+            setEndNumb(endNumb += 5)
+        )
+    }
     useEffect(() => {
-            setActiveIndex((current) => {
-                const res = current === img.length - 1 ? 0 : current + 1
-                return res
-            })
+        setActiveIndex((current) => {
+            const res = current === img.length - 1 ? 0 : current + 1
+            return res
+        })
         return () => clearInterval()
     }, activeIndex)
 
@@ -58,7 +70,15 @@ const Examples = (props) => {
                 </div>
                 <a class="previous" onClick={() => previousSlide()}>&#10094;</a>
                 <a class="next" onClick={() => nextSlide()}>&#10095;</a>
+                
             </div>
+            <div className='examples-photo'>
+                {currentArray.map(i=>i)}
+                <div className="button-item">
+                    <button className='btn-photos' onClick={() => btnPhotos()}>Показать ещё</button>
+                </div>
+            </div>
+
         </div>
     );
 }
