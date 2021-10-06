@@ -50,8 +50,6 @@ const Examples = (props) => {
             return res
         })
     };
-
-
     return (
         <div className='examples'>
             <h1>НАШИ РАБОТЫ</h1>
@@ -75,7 +73,7 @@ const Examples = (props) => {
             <div className='examples-photo'>
                 {currentArray.map(i=>i)}
                 <div className="button-item">
-                    <button className='btn-photos' onClick={() => btnPhotos()}>Показать ещё</button>
+                    {img.length > endNumb && <button className='btn-photos' onClick={() => btnPhotos()}>Показать ещё</button>}
                 </div>
             </div>
 
