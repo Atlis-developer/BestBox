@@ -19,3 +19,18 @@
 .graph .red-text{
     color: red;
 }
+
+.contacts-inform .number{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .contacts .contacts-inform{
+    font-size: 1em;
+    }
+    .contacts .contacts-inform {
+        flex-direction: column;
+    }
+    
+}
